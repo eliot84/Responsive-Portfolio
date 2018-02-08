@@ -156,6 +156,16 @@ h3,
   border: 1px solid #ddd;
 }
 
+.contactMain {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
 /* portfolio page */
 
 .work {
@@ -223,6 +233,7 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #ddd;
+  background-color: 
 }
 
 textarea {
@@ -237,3 +248,186 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+
+
+@media (max-width:979px) and (min-width:641px) {
+/*
+.main-section {
+  float: none;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 30px;
+  
+  background: #fff;
+  border: 1px solid #ddd;
+  clear: both;
+     max-width: none;
+}*/
+ section.sidebar {
+  display: block;
+  float: none;
+  width: 95%;
+   max-width: none;
+   margin-right: auto;
+   margin-left: auto;
+  padding: 30px;
+  margin-bottom: 35px;
+  background: #fff;
+  border: 1px solid #ddd;
+  clear: both;
+  }
+
+  .work:nth-child(even) {
+  margin-right: 40px;
+}
+
+section.main-section{
+  height: auto;
+}
+
+
+.contactMain {
+  float: none;
+  width: 95%;
+  max-width: none;
+  padding: 30px;
+  margin: 0 0 0 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  background: white;
+  border: 1px solid #ddd;
+  display: block;
+}
+
+} 
+@media only screen and (min-width: 980px){
+
+
+
+footer {
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  background: #666;
+   color: white;
+   text-align: center;
+   clear: both;
+     max-width: none;
+
+}
+
+.contactMain{
+  float: left;
+  width: 60%;
+  margin-left: none;
+  margin-right: none;
+  display: block;
+  padding: 30px;
+  margin-bottom: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+     max-width: none;
+}
+
+.main-section{
+  float: left;
+  width: 45%;
+  margin-left: none;
+  margin-right: none;
+  display: block;
+  padding: 30px;
+  margin-bottom: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+     max-width: none;
+}
+
+      .auth-image {
+        width: 100%;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+      }
+  
+}
+
+
+@media only screen and (max-width: 640px){
+
+
+/* INDEX SMALL */
+   #logo{
+   background-color: #4aaaa5;
+;
+   float: none;
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   height: 50px;
+   line-height: 50px;
+      } 
+
+      nav{
+        float: none;
+        text-align: center;
+      }
+
+      .auth-image {
+        width: 100%;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+      }
+
+section.sidebar {
+  display: block;
+  float: none;
+  width: 100%;
+   max-width: none;
+  padding: 30px;
+  margin-bottom: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  clear: both;
+}
+
+.main-section{
+  margin-bottom: 15px;
+}
+
+.contactMain{
+  margin-bottom: 15px;
+}
+
+.work {
+  position: relative;
+  float: none;
+  width: 274px;
+  margin: 0 0 0 0; 
+  margin-left: auto;
+  margin-right: auto;
+  overflow: none;
+  clear: both;
+}
+
+.work:nth-child(even) {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work:nth-child(odd) {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+}
+
