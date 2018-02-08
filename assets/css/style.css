@@ -362,7 +362,7 @@ footer {
   margin-left: none;
   margin-right: none;
   display: block;
-  padding-left: 60px;
+  padding-left: 30px;
   margin-bottom: 30px;
   background: #fff;
   border: 1px solid #ddd;
@@ -374,7 +374,7 @@ footer {
   float: left;
   width: 90%;
   margin: 0 0 0 0;
-  margin-left: auto;
+  margin-left: 13px;
   margin-right: auto;
   margin-bottom: 25px;
     overflow: auto;
