@@ -147,7 +147,7 @@ h3,
 }
 
 .main-section {
-  float: left;
+  /* float: left; */
   width: 100%;
   max-width: 650px;
   padding: 30px;
@@ -253,10 +253,11 @@ input[type=submit] {
 
 
 @media (max-width:979px) and (min-width:641px) {
-/*
-.main-section {
+
+/*.main-section {
   float: none;
   width: 95%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -285,9 +286,29 @@ input[type=submit] {
   margin-right: 40px;
 }
 
-section.main-section{
-  height: auto;
+.work {
+  position: relative;
+  float: left;
+  width: 43%;
+  margin left: ;
+  overflow: auto;
+  margin-left: 8px;
 }
+
+section.main-section{
+  width: 95%;
+  max-width: none;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  padding-left: 50px;
+  /* display: inherit; */
+  /* float: none; */
+}
+
+
+
 
 
 .contactMain {
@@ -341,13 +362,25 @@ footer {
   margin-left: none;
   margin-right: none;
   display: block;
-  padding: 30px;
+  padding-left: 60px;
   margin-bottom: 30px;
   background: #fff;
   border: 1px solid #ddd;
      max-width: none;
 }
 
+.work {
+  position: relative;
+  float: left;
+  width: 90%;
+  margin: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+    overflow: auto;
+    display: block;
+
+}
       .auth-image {
         width: 100%;
         float: none;
@@ -415,6 +448,7 @@ section.sidebar {
   margin: 0 0 0 0; 
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
   overflow: none;
   clear: both;
 }
